@@ -55,9 +55,12 @@ def divide_csv_part(filename, start_row, end_row, start_col, end_col):
         else:
             division_results_1.append(float('NaN'))
 
+    column_names = [((res_1 * res_2)* 100)for res_1, res_2 in zip(division_results_1, division_results_2)]
+
+
     st.title("Swing Efficiency %")
 
-    a = {'Names': print_csv_row_range(filename, 1, 135),'Swing Efficiency %': division_results_1}
+    a = {'Names': print_csv_row_range(filename, 1, 135),'Swing Efficiency %': column_names}
     df = pd.DataFrame.from_dict(a, orient='index')
     df = df.transpose()
 

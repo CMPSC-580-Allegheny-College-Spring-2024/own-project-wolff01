@@ -4,21 +4,21 @@
 
 This document is to contain your project proposal. __As you complete each of the below sections in this document, please be sure to remove all preamble text so that it does not appear in your work.__
 
-## GitHub Handle: Add Your Name Here
+## GitHub Handle: wolff01
 
-## Name: Add Your Name Here
+## Name: William Wolff
 
-## Major: TODO (choose: CS, DS, INFM, SE)
+## Major: Computer Science
 
-## Project Title: Enter The Name Of Your Project
-
-TODO: Create an interesting title for your proposed project that bring a freshness and excitement to the area of this project. Consider using a name that carries some information about what the project and provides some hint at what the project does without being too wordy.
+## Project Title: Swing Efficiency %
 
 ---
 
 ## Introduction
 
 TODO: Introduce the proposed project, providing a concise summary of the project goals, its key elements, offering the reader a quick understanding of the research's scope. The section continues to outline the main topics, research questions, hypotheses, and /or theories in a clear and meaningful language to provide a type of roadmap for the reader to navigate the forthcoming details of the project. This section also needs to motivate the project by providing context for the study, outlining the current state of knowledge in the field, and highlighting any gaps or limitations in existing research. The section serves as a foundational guide that enables the reader to grasp the context of the study, in addition to its structure, before moving into a more technically-based discussion in the following sections of the article. In short, the "Introduction" section needs to answer the `what` and `why` questions, that is `what is the project?` and `why is the project important?`
+
+The project, Swing Efficieny %, is a tool that helps analyze the statistics of all qualified batters and what percent of the swings they took were truly efficient swings. In baseball, having the perfect swing is almost impossible to have consistenly as it is tough from a physics standpoint. When looking at hitters in Major League Baseball, they have almost great swings and with analytic and metric tracking today, we are able to see what a hitter does on a regular. When we take a look at statistics, we see all these numbers that are very deeply thought out but a lot of the statistics do not use facts based around metric results. That is where the tool comes in to play. The tool creates the merging factor between given metrics and statistics. It helps as well display who is a valuable hitter and how valuable they are and can be. The person with the more efficient swing should be brought to light and there are more ideas of what can be valued in trading and signing players in the off season.
 
 ## Literature Review
 

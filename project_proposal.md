@@ -57,5 +57,3 @@ In conclusion, the code runs a parsed set of data given in the form of a csv fil
 ## References
 
 TODO: Add references in the [ACM style](https://www.acm.org/publications/authors/reference-formatting). All references must be cited in the proposal.
-
-Evaluating plate discipline in Major League Baseball with Bayesian Additive Regression Trees

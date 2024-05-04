@@ -28,7 +28,27 @@ When thinking about this project and how to go about creating this. First laying
 
 ## Preliminary Results and Outcomes
 
-TODO: Discuss the outcomes of your project in this section. Depending on the project type, the presented results and outcomes will vary. In some projects, you will be asked to present a theoretical analysis, and in others your experimental study and its results. In this section, you are also to demonstrate an enhanced version of your artifact by showing its capabilities and applications, in light of the evaluation metrics for assessing the artifact
+The result of the code came out to create a chart that is 134 lines long and as well display both the results of the math as well as the names of the player that correlates with the results. The outcome was to be expected as that was the intended goal was to display these metrics. The outputs when first creating this code were led to be in a different fashion as before the implementation of the stream lit function, the results were printed through running the python code. While working on this, there were several encounters of flaws in the code such as not being able to display the data properly and manipulating the code to run the correct mathematical equation. The mathematical portion was created in several different parts in order to know exactly how each part would behave in the running of this code. The parts being the addition, multiplication, and division. In the division though it includes the features of the results and how they will be displayed in the code. The more that was inputted into the code. The result of the code came out to create a chart that is 134 lines long and as well display both the results of the math as well as the names of the player that correlates with the results. The outcome was to be expected as that was the intended goal was to display these metrics. The outputs when first creating this code were led to be in a different fashion as before the implementation of the stream lit function, the results were printed through running the python code. While working on this, there were several encounters of flaws in the code such as not being able to display the data properly and manipulating the code to run the correct mathematical equation. The mathematical portion was created in several different parts in order to know exactly how each part would behave in the running of this code. The parts being the addition, multiplication, and division. In the division though it includes the features of the results and how they will be displayed in the code. The more that was inputted into the code. As shown in the example below, it shows the results of a small portion of the data As shown in the example below, it shows the results of a small portion of the data
+
+|---|------------------|--------------------|
+|   |Names	           | Swing Efficiency % |
+|---|------------------|--------------------|
+|35	|Yoshida, Masataka |2.7721              |
+|---|------------------|--------------------|
+|97	|Yelich, Christian |1.9420              |
+|---|------------------|--------------------|
+|107|	Witt Jr., Bobby|2.3629              |
+|---|------------------|--------------------|
+|72	|Walker, Christian |1.6783              |
+|---|------------------|--------------------|
+|106|Wade Jr., LaMonte |2.2650              |
+|---|------------------|--------------------|
+|133|	Volpe, Anthony |1.7327              |
+|---|------------------|--------------------|
+|119|	Vierling, Matt |2.1328              |
+|---|------------------|--------------------|
+|99	|Verdugo, Alex	   |2.9859              |
+|---|------------------|--------------------|
 
 ## Conclusions and Future Work
 

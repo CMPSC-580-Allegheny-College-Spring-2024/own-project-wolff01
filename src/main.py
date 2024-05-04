@@ -75,7 +75,7 @@ def csv_row_range(filename, start_row_index, end_row_index):
         rows = list(csv_reader)
         result = []
         for row_index in range(start_row_index, min(end_row_index + 1, len(rows))):
-            result.append(rows[row_index][0])  # Exclude the last element of the row
+            result.append(rows[row_index][0])
         return result
 
 

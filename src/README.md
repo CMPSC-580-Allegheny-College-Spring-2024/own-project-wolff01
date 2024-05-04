@@ -6,7 +6,7 @@ To allow the user to experience and execute your prototype, you must first expla
 
 ## Key Features
 
-The code in the prototype consists of 
+The code in the prototype consists of 4 main functions. The addition, multiplication, division, and row range. When running, this code will display the options
 
 ## Requirements
 

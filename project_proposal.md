@@ -56,4 +56,13 @@ In conclusion, the code runs a parsed set of data given in the form of a csv fil
 
 ## References
 
-TODO: Add references in the [ACM style](https://www.acm.org/publications/authors/reference-formatting). All references must be cited in the proposal.
+Amanda Carrol, Tonya Krupp, Kara Tucker, Nicholas J. Siekirk, and Bradley J. Kendall. 2023. The relationship between cognition, preseason hitting assessments, and in-game batting performance in collegiate baseball and softball players. (January 2023). Retrieved May 3, 2024 from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10124730/ 
+Anon. Fundamentals of collecting and analyzing baseball data. Retrieved May 3, 2024a from https://bookdown.org/jjovanovic/jjovanovic/statcast.html 
+Anon. Pandas. Retrieved May 3, 2024b from https://pandas.pydata.org/ 
+Anon. Statcast custom leaderboards. Retrieved May 3, 2024c from https://baseballsavant.mlb.com/leaderboard/custom?year=2023&type=batter&filter=&min=600&selections=b_hit_into_play%2Csweet_spot_percent%2Chard_hit_percent%2Cout_zone_swing%2Cin_zone_swing&chart=false&x=b_hit_into_play&y=b_hit_into_play&r=no&chartType=beeswarm&sort=year&sortDir=asc 
+Anon.Retrieved May 3, 2024e from https://www.jsr.org/hs/index.php/path/article/view/5763/2619 
+Anon.Retrieved May 4, 2024d from https://streamlit.io 
+Clark Ballou-Crawford. 2023. Which statistics in baseball are most important for winning? John Heinrichs Scholarly &amp; Creative Activities Day (2023). DOI:http://dx.doi.org/10.58809/obzv3646 
+Ryan Yee and Sameer K. Deshpande. 2024. Evaluating plate discipline in Major League Baseball with bayesian additive regression trees. (March 2024). Retrieved May 3, 2024 from https://www.degruyter.com/document/doi/10.1515/jqas-2023-0048/html 
+Samuel Wathen and Nicholas D. Rhew. 2019. Using Real‐Life Major League Baseball Data in an introductory statistics course. Decision Sciences Journal of Innovative Education 17, 3 (July 2019), 194–213. DOI:http://dx.doi.org/10.1111/dsji.12185 
+Takatoshi Higuchi, Tomoyuki Nagami, Jun Morohoshi, Hiroki Nakata, and Kazuyuki Kanosue. 2013. Disturbance in hitting accuracy by professional and collegiate baseball players due to intentional change of target position. Perceptual and Motor Skills 116, 2 (April 2013), 627–639. DOI:http://dx.doi.org/10.2466/30.23.25.pms.116.2.627-639 

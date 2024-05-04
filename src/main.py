@@ -2,7 +2,7 @@ import csv
 import streamlit as st
 import pandas as pd
 
-def sum_csv_part(filename, start_row, end_row, start_col, end_col):
+def sum_csv(filename, start_row, end_row, start_col, end_col):
     with open(filename, 'r') as file:
         csv_reader = csv.reader(file)
         data = list(csv_reader)
@@ -19,7 +19,7 @@ def sum_csv_part(filename, start_row, end_row, start_col, end_col):
             sums.append(row_sum)
         return sums
 
-def multiply_csv_part(filename, start_row, end_row, start_col, end_col):
+def multiply_csv(filename, start_row, end_row, start_col, end_col):
     with open(filename, 'r') as file:
         csv_reader = csv.reader(file)
         data = list(csv_reader)
@@ -36,10 +36,10 @@ def multiply_csv_part(filename, start_row, end_row, start_col, end_col):
                 products.append(row_product)
         return products
 
-def divide_csv_part(filename, start_row, end_row, start_col, end_col):
-    sums = sum_csv_part(filename, start_row, end_row, start_col, end_col)
-    products_1 = multiply_csv_part(filename, start_row, end_row, 3, 4)
-    products_2 = multiply_csv_part(filename, start_row, end_row, 3, 5)
+def divide_csv(filename, start_row, end_row, start_col, end_col):
+    sums = sum_csv(filename, start_row, end_row, start_col, end_col)
+    products_1 = multiply_csv(filename, start_row, end_row, 3, 4)
+    products_2 = multiply_csv(filename, start_row, end_row, 3, 5)
     
     division_results_1 = []
     division_results_2 = []
@@ -60,7 +60,7 @@ def divide_csv_part(filename, start_row, end_row, start_col, end_col):
 
     st.title("Swing Efficiency %")
 
-    a = {'Names': print_csv_row_range(filename, 1, 135),'Swing Efficiency %': column_names}
+    a = {'Names': csv_row_range(filename, 1, 135),'Swing Efficiency %': column_names}
     df = pd.DataFrame.from_dict(a, orient='index')
     df = df.transpose()
 
@@ -69,7 +69,7 @@ def divide_csv_part(filename, start_row, end_row, start_col, end_col):
 
     st.table(df_sorted)
 
-def print_csv_row_range(filename, start_row_index, end_row_index):
+def csv_row_range(filename, start_row_index, end_row_index):
     with open(filename, 'r') as file:
         csv_reader = csv.reader(file)
         rows = list(csv_reader)
@@ -79,4 +79,4 @@ def print_csv_row_range(filename, start_row_index, end_row_index):
         return result
 
 
-divide_csv_part('data.csv', 1, 135, 6, 7)
+divide_csv('data.csv', 1, 135, 6, 7)

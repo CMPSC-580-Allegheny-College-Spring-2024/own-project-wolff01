@@ -6,7 +6,7 @@ To allow the user to experience and execute your prototype, you must first expla
 
 ## Key Features
 
-The code in the prototype consists of 4 main functions. The addition, multiplication, division, and row range. When running, this code will display the options to the viewer a chart of the data. This data being ran is very significant and points out the value of a hitter's swing and what percent of his swing are truly a perfect swing.
+The code in the prototype consists of 4 main functions. The addition, multiplication, division, and row range. When running, this code will display the options to the viewer a chart of the data. This data being ran is very significant and points out the value of a hitter's swing and what percent of his swing are truly a perfect
 
 ## Requirements
 
@@ -14,4 +14,18 @@ TODO: Include the software and hardware needed to run your prototype. Be sure to
 
 ## Using the Prototype
 
-TODO: Provide details for how to run your artifact. Include specific commands and step by step instructions.
+In order to use the artifact you must first install the follwing parts:
+
+```python
+
+pip install streamlit
+
+```
+
+In order to run the code, you must run:
+
+```python
+
+streamlit run code.py
+
+```

@@ -3,13 +3,14 @@ import streamlit as st
 import pandas as pd
 
 def sum_csv(filename, start_row, end_row, start_col, end_col):
+    """Addition portion of code"""
     with open(filename, 'r') as file:
         csv_reader = csv.reader(file)
         data = list(csv_reader)
-        
+        # Reads start and ending of rows
         start_row = max(0, min(start_row, len(data)-1))
         end_row = max(start_row, min(end_row, len(data)-1))
-        
+        # Reads start and ending of cloumns
         start_col = max(0, min(start_col, len(data[0])-1))
         end_col = max(start_col, min(end_col, len(data[0])-1))
         
@@ -20,13 +21,14 @@ def sum_csv(filename, start_row, end_row, start_col, end_col):
         return sums
 
 def multiply_csv(filename, start_row, end_row, start_col, end_col):
+    """Multiplication portion of code"""
     with open(filename, 'r') as file:
         csv_reader = csv.reader(file)
         data = list(csv_reader)
-        
+        # Reads start and ending of rows
         start_row = max(0, min(start_row, len(data)-1))
         end_row = max(start_row, min(end_row, len(data)-1))
-        
+        # Reads start and ending of columns
         start_col = max(0, min(start_col, len(data[0])-1))
         end_col = max(start_col, min(end_col, len(data[0])-1))
         
@@ -37,6 +39,7 @@ def multiply_csv(filename, start_row, end_row, start_col, end_col):
         return products
 
 def divide_csv(filename, start_row, end_row, start_col, end_col):
+    """Division portion of code"""
     sums = sum_csv(filename, start_row, end_row, start_col, end_col)
     products_1 = multiply_csv(filename, start_row, end_row, 3, 4)
     products_2 = multiply_csv(filename, start_row, end_row, 3, 5)
@@ -48,15 +51,15 @@ def divide_csv(filename, start_row, end_row, start_col, end_col):
             division_results_2.append(prod_val / sum_val)
         else:
             division_results_2.append(float('NaN'))
-
+    # Adds necessary data to second list
     for sum_val, prod_val in zip(sums, products_2):
         if sum_val != 0:
             division_results_1.append(prod_val / sum_val)
         else:
             division_results_1.append(float('NaN'))
-
+    # Adds necessary data to first list
     column_names = [((res_1 * res_2)* 100)for res_1, res_2 in zip(division_results_1, division_results_2)]
-
+    # Merges both lists
 
     st.title("Perfect Timing")
 
@@ -70,7 +73,9 @@ def divide_csv(filename, start_row, end_row, start_col, end_col):
     st.table(df_sorted)
 
 def csv_row_range(filename, start_row_index, end_row_index):
+    """Range portion of code"""
     with open(filename, 'r') as file:
+        # Reads the csv file
         csv_reader = csv.reader(file)
         rows = list(csv_reader)
         result = []

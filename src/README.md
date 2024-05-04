@@ -10,7 +10,10 @@ The code in the prototype consists of 4 main functions. The addition, multiplica
 
 ## Requirements
 
-TODO: Include the software and hardware needed to run your prototype. Be sure to specify the  versions of software used in your prototype.
+Versions needed to run the code:
+
+Python: 3.10.6 or higher
+Streamlit: 1.31.1
 
 ## Using the Prototype
 

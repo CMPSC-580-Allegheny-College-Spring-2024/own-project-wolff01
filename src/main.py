@@ -58,7 +58,7 @@ def divide_csv(filename, start_row, end_row, start_col, end_col):
     column_names = [((res_1 * res_2)* 100)for res_1, res_2 in zip(division_results_1, division_results_2)]
 
 
-    st.title("Swing Efficiency %")
+    st.title("Perfect Timing")
 
     a = {'Names': csv_row_range(filename, 1, 135),'Swing Efficiency %': column_names}
     df = pd.DataFrame.from_dict(a, orient='index')

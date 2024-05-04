@@ -29,6 +29,6 @@ In order to run the code, you must run:
 
 ```python
 
-streamlit run code.py
+streamlit run main.py
 
 ```

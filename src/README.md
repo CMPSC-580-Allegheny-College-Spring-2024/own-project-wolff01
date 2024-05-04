@@ -12,7 +12,7 @@ The code in the prototype consists of 4 main functions. The addition, multiplica
 
 Versions needed to run the code:
 
-Python: 3.10.6 or higher
+Python: 3.10.6 or highe
 Streamlit: 1.31.1
 
 ## Using the Prototype
